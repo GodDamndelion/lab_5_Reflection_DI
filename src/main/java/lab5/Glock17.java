@@ -1,5 +1,8 @@
 package lab5;
 
+/**
+ * Some weapon class
+ */
 public class Glock17 implements Weapon {
     @Override
     public void shoot() {

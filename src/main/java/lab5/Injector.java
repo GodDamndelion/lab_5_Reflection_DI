@@ -7,13 +7,14 @@ import java.util.Arrays;
 import java.util.Properties;
 
 /**
- * Класс "Инжектор" с единственным методом
+ * "Injector" class with a single method
  */
 public class Injector {
 
     /**
-     * @param object - некоторый класс
-     * @return - заполненный объект класса
+     * Returns filled class
+     * @param object some class
+     * @return filled class object
      */
     public Object inject(Object object) {
         if (object != null) {

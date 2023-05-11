@@ -1,5 +1,8 @@
 package lab5;
 
+/**
+ * Stormtrooper class
+ */
 public class Stormtrooper {
     @AutoInjectable
     public Weapon primaryWeapon;
